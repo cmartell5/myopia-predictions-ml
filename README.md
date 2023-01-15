@@ -10,12 +10,14 @@ I have been provided with raw data, so I will first need to process it to fit th
 ## Part 1: Prepare the Data
     - Read the csv file into a Pandas DataFrame
     - Remove the "MYOPIC" column from the dataset
-    - Standardize the dataset so that columns that contain larger values do not influence the outcome more than columns with smaller values
+    - Standardize the dataset so that columns that contain larger values do not influence the outcome more than columns 
+    with smaller values
 
 ## Part 2: Apply Dimensionality Reduction
     - Perform dimensionality reduction with PCA.
     - Preserve 90% of the explained variance in dimensionality reduction.
-    - Further reduce the dataset dimensions wtih t-SNE and visually inspect the results. To do this, run the t-SNE on the principal components, which is the output of the PCA transformation.
+    - Further reduce the dataset dimensions wtih t-SNE and visually inspect the results. To do this, run the t-SNE on the 
+    principal components, which is the output of the PCA transformation.
     - Create a scatter plot of the t-SNE output. Are there distinct clusters?
 
 ## Part 3: Perform a Cluster Analysis with K-means
